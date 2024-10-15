@@ -1,0 +1,474 @@
+.z0{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+.a0{
+    margin-left: 5%;
+    margin-top: 2%;
+    font-size: 35px;
+    position: absolute;
+    color: black;
+}
+.a1{
+    font-size: 20px;
+    position: absolute;
+    margin-left: 38%;
+    margin-top: 2.5%;
+    color: rgb(232, 86, 33);
+}
+.a1:hover{
+    color: rgb(232, 86, 33);
+}
+.a2{
+    font-size: 20px;
+    position: absolute;
+    margin-left: 49%;
+    margin-top: 2.5%;
+    color: black;
+}
+.a2:hover{
+    color: rgb(232, 86, 33);
+}
+.a3{
+    font-size: 20px;
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 2.5%;
+    color: black;
+}
+.a3:hover{
+    color: rgb(232, 86, 33);
+}
+.a4{
+    font-size: 20px;
+    position: absolute;
+    margin-left: 75%;
+    margin-top: 2.5%;
+    color: black;
+}
+.a4:hover{
+    color: rgb(232, 86, 33);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+.slider {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    height: 100%;
+}
+
+.slide {
+    min-width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    display: none; /* Hide all slides initially */
+}
+
+.slide.active {
+    display: block;
+}
+
+.navigation {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    pointer-events: none;
+}
+
+.navigation button {
+    pointer-events: all;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.a5{
+    width: 229.8vh;
+    height: 100vh;
+    position: absolute;
+    opacity: 30%;
+}
+
+.a7{
+    color: black;
+    font-size: 20px;
+    margin-top: 13%;
+    margin-left: 10%;
+    position: absolute;
+}
+
+.a6{
+    width: 26vh;
+    height: 6vh;
+    position: absolute;
+    margin-top: 12.7%;
+    margin-left: 9.4%;
+}
+
+.a8{
+    font-size: 58px;
+    position: absolute;
+    margin-top: 16%;
+    margin-left: 9%;
+    color: white;
+}
+
+.a9{
+    width: 32vh;
+    height: 6vh;
+    position: absolute;
+    margin-top: 12.7%;
+    margin-left: 9.4%;
+}
+.a10{
+    color: black;
+    font-size: 20px;
+    margin-top: 13%;
+    margin-left: 10%;
+    position: absolute;
+}
+
+.a11{
+    font-size: 58px;
+    position: absolute;
+    margin-top: 16%;
+    margin-left: 9%;
+    color: white;
+}
+
+.a12{
+    width: 32vh;
+    height: 6vh;
+    position: absolute;
+    margin-top: 12.7%;
+    margin-left: 9.4%;
+}
+.a13{
+    color: black;
+    font-size: 20px;
+    margin-top: 13%;
+    margin-left: 10%;
+    position: absolute;
+}
+
+.a14{
+    font-size: 58px;
+    position: absolute;
+    margin-top: 16%;
+    margin-left: 9%;
+    color: white;
+}
+
+.a15{
+    width: 18vh;
+    height: 6vh;
+    position: absolute;
+    margin-top: 12.7%;
+    margin-left: 9.4%;
+}
+.a16{
+    color: black;
+    font-size: 20px;
+    margin-top: 13%;
+    margin-left: 10%;
+    position: absolute;
+}
+
+.a17{
+    font-size: 58px;
+    position: absolute;
+    margin-top: 16%;
+    margin-left: 9%;
+    color: white;
+}
+
+.a18{
+    position: absolute;
+    margin-top: 61%;
+    margin-left: 10%;
+    height: 80vh;
+}
+
+.a19{
+    position: absolute;
+    margin-top: 5%;    
+    width: 20vh;
+    margin-top: 90%;
+    margin-left: 7%;
+}
+.a20{
+    position: absolute;
+    margin-top: 92%;
+    margin-left: 9.5%;
+}
+
+.a21{
+    color: #ee626b;
+    margin-top: 61%;
+    margin-left: 38%;
+    font-size: 22px;
+    position: absolute;
+}
+
+.a22{
+    margin-top: 67%;
+    margin-left: 38%;
+    font-size: 43px;
+    position: absolute;
+}
+
+.a23{
+    margin-top: 61%;
+    margin-left: 70%;
+    width: 12vh;
+    position: absolute;
+}
+
+.a24{
+    font-size: 27px;
+    margin-top: 61%;
+    margin-left: 76%;
+    position: absolute;
+}
+
+.a25{
+    font-size: 18px;
+    margin-top: 63.7%;
+    color: gray;
+    margin-left: 76%;
+    position: absolute;
+}
+
+.b1{
+    margin-top: 71%;
+    width: 12vh;
+    margin-left: 70%;
+    position: absolute;
+}
+
+.b2{
+    margin-top: 81%;
+    width: 12vh;
+    margin-left: 70%;
+    position: absolute;
+}
+
+.b3{
+    margin-top: 91%;
+    margin-left: 70%;
+    width: 12vh;
+    position: absolute;
+}
+
+.b4{
+    font-size: 27px;
+    margin-top: 71%;
+    margin-left: 76%;
+    position: absolute;
+}
+
+.b5{
+    font-size: 18px;
+    margin-top: 73.7%;
+    color: gray;
+    margin-left: 76%;
+    position: absolute;
+}
+
+.b6{
+    font-size: 27px;
+    margin-top: 81%;
+    margin-left: 76%;
+    position: absolute;
+}
+
+.b7{
+    font-size: 18px;
+    margin-top: 84%;
+    color: gray;
+    margin-left: 76%;
+    position: absolute;
+}
+
+.b9{
+    font-size: 27px;
+    margin-top: 91%;
+    margin-left: 76%;
+    position: absolute;
+}
+
+.b10{
+    font-size: 18px;
+    margin-top: 93.7%;
+    color: gray;
+    margin-left: 76%;
+    position: absolute;
+}
+
+.b11{
+    position: absolute;
+    margin-top: 100%;
+    width: 229.1vh;
+    height: 110vh;
+}
+
+.b12{
+    color: #ee626b;
+    margin-top: 109%;
+    margin-left: 42%;
+    font-size: 22px;
+    position: absolute;
+}
+
+.b13{
+    margin-top: 112%;
+    margin-left: 35.6%;
+    color: white;
+    font-size: 43px;
+    position: absolute;
+}
+
+.b14{
+    margin-top: 130%;   
+    margin-left: 16%;
+    position: absolute;
+    width: 160vh;
+}
+
+.b15{
+    margin-top: 143%;
+    margin-left: 48%;
+    position: absolute;
+    width: 15vh;
+}
+
+.b16{
+    border-radius: 4%;
+    height: 15vh;
+    width: 50vh;
+    background-color: rgb(255, 227, 232);
+    color: rgb(255, 227, 232);
+    margin-top: 170%;
+    margin-left: 15%;
+    position: absolute;
+    font-size: 24px;
+}
+
+.b17{
+    margin-top: 171%;
+    margin-left: 22.5%;
+    position: absolute;
+    font-size: 24px;
+}
+
+.b18{
+    position: absolute;
+    margin-top: 171.2%;
+    margin-left: 16.6%;
+    font-size: 45px;
+}
+
+.b19{
+    position: absolute;
+    font-size: 75vh;
+    margin-top: 141.5%;
+    margin-left: 32.8%;
+    color: rgb(232, 86, 33);
+}
+
+.b20{
+    border-radius: 4%;
+    height: 15vh;
+    width: 50vh;
+    background-color: rgb(255, 227, 232);
+    color: rgb(255, 227, 232);
+    margin-top: 170%;
+    margin-left: 40%;
+    position: absolute;
+    font-size: 24px;
+}
+
+.b21{
+    border-radius: 4%;
+    height: 15vh;
+    width: 50vh;
+    background-color: rgb(255, 227, 232);
+    color: rgb(255, 227, 232);
+    margin-top: 170%;
+    margin-left: 65%;
+    position: absolute;
+    font-size: 24px;
+}
+
+.b22{
+    position: absolute;
+    font-size: 51vh;
+    margin-top: 151.3%;
+    margin-left: 83.4%;
+    color: rgb(232, 86, 33);
+}
+
+.b23{
+    position: absolute;
+    font-size: 51vh;
+    margin-top: 151.3%;
+    margin-left: 58.4%;
+    color: rgb(232, 86, 33);
+}
+
+.b24{
+    position: absolute;
+    margin-top: 171.2%;
+    margin-left: 41.5%;
+    font-size: 45px;
+}
+
+.b25{
+    margin-top: 171%;
+    margin-left: 47%;
+    position: absolute;
+    font-size: 24px;
+}
+
+.b26{
+    position: absolute;
+    margin-top: 171.2%;
+    margin-left: 66.5%;
+    font-size: 45px;
+}
+
+.b27{
+    margin-top: 171%;
+    margin-left: 73%;
+    position: absolute;
+    font-size: 24px;
+    
+}
